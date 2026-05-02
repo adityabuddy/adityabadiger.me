@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>Aditya Badiger | Portfolio</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loader">
+  <div class="loader-content">
+    <h1>Loading Portfolio...</h1>
+    <div class="hourglass">⌛</div>
+  </div>
+</div>
+<!-- NAV -->
+<nav>
+  <h2>Aditya Badiger</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<canvas id="particles"></canvas>
+<!-- HERO -->
+<section class="hero">
+  <h1>Hi, I'm Aditya <span class="wave">👋</span></h1>
+  <p><span id="typing"></span></p>
+  <a href="#projects" class="btn">View Work</a>
+  <a href="Aditya_Badiger_Resume.pdf" download class="btn">Download Resume</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section fade-up">
+  <h2>About Me</h2>
+  <p>
+     Artificial Intelligence & Machine Learning graduate with hands-on experience in Python, SQL, Linux, and Prompt 
+Engineering. Strong understanding of LLMs and AI concepts with proficiency in Microsoft tools including Excel. Eager 
+to contribute analytical and technical skills while continuously learning new tools and workflows. 
+  </p>
+  <h2>Education</h2>
+    <p>
+        B.E. in Artificial Intelligence & Machine Learning, AMC Engineering College Bangalore (2020-2024)
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section fade-left">
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <!--<img src="https://via.placeholder.com/300x180"> -->
+      <h3>Hand Recognition</h3>
+      <p>98% accurate real-time system using OpenCV & TensorFlow.</p>
+      <a href="https://github.com/adityabuddy/Hand-Gesture" target="_blank">View</a>
+    </div>
+
+    <div class="card">
+     <!-- <img src="https://via.placeholder.com/300x180"> -->
+      <h3>Medical Image AI</h3>
+      <p>U-Net model for tumor segmentation using MONAI.</p>
+      <a href="https://github.com/adityabuddy/Med-Image" target="_blank">View</a>
+    </div>
+
+    <div class="card">
+      <!--<img src="https://via.placeholder.com/300x180"> -->   
+      <h3>Farm System</h3>
+      <p>Full-stack app using HTML, CSS & MySQL.</p>
+    </div>
+
+    <div class="card">
+      <!--<img src="https://via.placeholder.com/300x180"> -->
+      <h3>AI Report Generator</h3>
+      <p>BuilT an AI system that reads both documents and generates a Main DDR (Detailed 
+Diagnostic Report).</p>
+      <a href="https://github.com/adityabuddy/AI-DDR-report-generator" target="_blank">View</a>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section fade-right">
+  <h2>Experience</h2>
+
+  <div class="exp-card">
+    <h3>Intern - Blippar </h3> October 2025 - January 2026
+    <p>I learned and worked with Python for backend and web application development. 
+Gained hands-on exposure to the company’s products (blippbuilder), workflows, and internal tools. 
+ Assisted in understanding product features, use cases, and real-world implementation. 
+ Collaborated with the team to explore how technology supports product functionality 
+ Demonstrated ability to quickly learn new tools and workflows </p>
+  </div>
+
+  <div class="exp-card">
+    <h3>ML Intern - Compsoft Technology</h3> 
+   March 2023 - April 2023 <p>Developed and tested a novel machine learning algorithm for lip-to-speech synthesis, leveraging Python and 
+TensorFlow to generate text and synthesized speech from video inputs. TensorFlow to generate text and synthesized 
+speech from video inputs.</p>
+  </div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section fade-up ripple-area">
+  <h2>Skills</h2>
+
+  <div class="skills">
+    <span class="skills">Python</span>
+    <span class="skills">Machine Learning</span>
+    <span class="skills">ChatGPT,Claude</span>
+    <span class="skills">TensorFlow</span>
+    <span class="skills">PowerBI</span>
+    <span class="skills">SQL</span>
+    <span class="skills">Prompt Engineering</span>
+    <span class="skills">Linux (ubuntu)</span>
+    <span class="skills">n8n(Beginner)</span>
+  </div>
+</section>
+
+<section class="section fade-up" id="why">
+  <h2>Why Hire Me?</h2>
+  <p>
+    I combine strong fundamentals in Artificial Intelligence and Machine Learning 
+    with hands-on project experience to build solutions that solve real-world problems.
+    I focus on writing efficient code, understanding core concepts, and continuously 
+    learning new technologies like Generative AI and Deep Learning.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade-up">
+  <h2>Contact</h2>
+<p>
+  <i class="fas fa-envelope"></i>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityabadiger504@gmail.com" target="_blank">
+    Send Email
+  </a>
+</p>
+
+  <p>
+    <i class="fab fa-github"></i>
+    <a href="https://github.com/adityabuddy" target="_blank">github.com/adityabuddy</a>
+  </p>
+
+  <p>
+    <i class="fab fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/aditya-badiger-14092001ade/" target="_blank">
+      linkedin.com/in/aditya-badiger
+    </a>
+  </p>
+</section>
+<footer>
+  <p>© 2026 Aditya</p>
+</footer>
+
+<!-- JS -->
+<script>
+
+  /* Typing Effect */
+  const texts = [
+    "AI Engineer",
+    "Prompt Engineer",
+    "Building Intelligent Systems",
+    "Exploring LLMs",
+    "Passionate about AI",
+    "Vibe Coder",
+  ];
+
+  let i = 0, j = 0, current = "", deleting = false;
+
+  function type() {
+    const el = document.getElementById("typing");
+
+    if (i >= texts.length) i = 0;
+    current = texts[i];
+
+    if (deleting) {
+      el.textContent = current.substring(0, j--);
+    } else {
+      el.textContent = current.substring(0, j++);
+    }
+
+    if (!deleting && j === current.length) {
+      deleting = true;
+      setTimeout(type, 1200);
+      return;
+    }
+
+    if (deleting && j === 0) {
+      deleting = false;
+      i++;
+    }
+
+    setTimeout(type, deleting ? 60 :120);
+  }
+
+  type();
+
+
+  /* Scroll Animation */
+  const elements = document.querySelectorAll('.fade-up, .fade-left, .fade-right');
+
+  function showOnScroll() {
+    elements.forEach(el => {
+      const top = el.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        el.classList.add("show");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", showOnScroll);
+  showOnScroll();
+
+</script>
+
+</body>
+</html>
+<script>
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particlesArray = [];
+
+for (let i = 0; i < 100; i++) {
+  particlesArray.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    size: Math.random() * 2,
+    speedX: (Math.random() - 0.5),
+    speedY: (Math.random() - 0.5)
+  });
+}
+
+function animateParticles() {
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+
+  particlesArray.forEach(p => {
+    p.x += p.speedX;
+    p.y += p.speedY;
+    
+    ctx.shadowBlue = 10;
+    ctx.shadowColor = "#38bdf8";
+    ctx.fillStyle = "rgba(56,189,248,0.8)";
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.size, 0, Math.PI*2);
+    ctx.fill();
+  });
+
+  requestAnimationFrame(animateParticles);
+}
+
+animateParticles();
+</script>
+<script>
+document.querySelectorAll(".card").forEach(card => {
+  card.addEventListener("mousemove", (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const rotateX = -(y / rect.height - 0.5) * 10;
+    const rotateY = (x / rect.width - 0.5) * 10;
+
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+  });
+
+  card.addEventListener("mouseleave", () => {
+    card.style.transform = "rotateX(0) rotateY(0)";
+  });
+});
+</script>
+<script>
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+
+  setTimeout(() => {
+    loader.classList.add("fade-out");
+  }, 1200); // delay for smooth feel
+});
+</script>
+<script>
+const skillSection = document.querySelector('.ripple-area');
+
+skillSection.addEventListener('click', function(e) {
+
+  const bubble = document.createElement("span");
+  bubble.classList.add("ripple-bubble");
+
+  const size = 200; // fixed size keeps it smooth
+
+  bubble.style.width = bubble.style.height = size + "px";
+  bubble.style.left = (e.clientX - this.getBoundingClientRect().left - size/2) + "px";
+  bubble.style.top = (e.clientY - this.getBoundingClientRect().top - size/2) + "px";
+
+  this.appendChild(bubble);
+
+  setTimeout(() => bubble.remove(), 700);
+});
+</script>
+<script>
+window.addEventListener("scroll", () => {
+  const hero = document.querySelector(".hero");
+  let offset = window.scrollY;
+  hero.style.backgroundPositionY = offset * 0.5 + "px";
+});
+</script>
